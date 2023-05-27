@@ -11,3 +11,4 @@ Current issues with project:
 Further development
 - Ability to add detailed description of events
 - It is lacking a reminder functionality. As for right now, the model can correctly tell you about the scheduled calendar, as well as plan and cancel events within, but this only happens when the model is being called directly. This functionality should not have to be a tool for the agent-chain, but rather a separate function that checks the current date within the calendar, and if an event exists on current date, it should return those events and timestamps.
+- Code in more concise reponses from LLM to reduce the amount tokens used, thus reducing the $$$ cost of running the model; https://github.com/ray-project/llm-numbers
